@@ -17,7 +17,7 @@ class RandomNumbers:
         for n in range(0, self.amount):
             num = random.randint(self.minRange, self.maxRange)
             print(num)
-        # This is the second edit
+        # This is the final edit
 
-secret = RandomNumbers(10, 10, 100)
+secret = RandomNumbers(5, 1, 1000)
 secret.generateRandom()
